@@ -1,0 +1,290 @@
+﻿/* 
+ * redir.at
+ * 
+ * Default CSS
+ */
+
+/* main settings */
+html, body {
+  background-color: #1f1a15;
+  
+  color: #353535;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Verdana, serif;
+  text-align: center;
+  
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 950px;
+  
+  text-align: left;
+  
+  margin: 0 auto;
+  padding: 0;
+}
+
+a:link {
+  color: #686868;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #686868;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #353535;
+  text-decoration: none;
+}
+
+
+/* head */
+#head {
+  width: 950px;
+  height: 120px;
+  float: left;
+  
+  background-image: url("images/hr.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+#logo {
+  width: 175px;
+  height: 120px;
+  float: left;
+  
+  background-image: url("images/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+#slogen {
+  width: 600px;
+  height: 120px;
+  float: left;
+  
+  background-image: url("images/slogen.jpg");
+  background-repeat: no-repeat;
+  background-position: 8px 70px;
+}
+
+#stick_ppl {
+  width: 175px;
+  height: 120px;
+  float: left;
+}
+
+#stick_girl {
+  width: 175px;
+  height: 60px;
+  
+  background-image: url("images/stick_girl.jpg");
+  background-repeat: no-repeat;
+  background-position: 50px 0;
+}
+
+#stick_boy {
+  width: 175px;
+  height: 60px;
+  
+  background-image: url("images/stick_boy.jpg");
+  background-repeat: no-repeat;
+  background-position: 100px 13px;
+}
+
+/* content */
+#content {
+  width: 930px;
+  height: 340px;
+  float: left;
+
+  text-align: center;
+  
+  padding: 35px 10px 0 10px;
+}
+
+.box_nest {
+  float: left;
+  
+  background-color: #ffffff;
+  background-image: url("images/box_bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.box {
+  width: 266px;
+  height: 280px;
+  
+  text-align: left;
+  
+  background-image: url("images/box_top.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  
+  padding: 10px;
+}
+
+.star {
+cursor: default;
+}
+
+#box2_nest {
+  margin: 0 35px;
+}
+
+.box h2 {
+  width: 265px;
+  height: 22px;
+  
+  color: #11c5c6;
+  font-size: 18px;
+  text-transform: uppercase;
+  
+  margin: 0 0 15px 0;
+}
+
+.box p.why_text {
+  font-size: 14px;
+  color: #686868;
+  
+  margin: 0 0 30px 0;
+}
+
+.box p.why_high {
+  font-size: 14px;
+  color: #11c5c6;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  margin: 0 0 20px 0;
+}
+
+.box_content {
+  width: 260px;
+  height: 180px;
+  
+  padding: 0 0 0 5px;
+}
+
+.box_content h3 {
+  width: 260px;
+  
+  text-transform: uppercase;
+  
+  margin: 0;
+}
+
+.box_form_error {
+  color: #af0000;
+  font-size: 11px;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+.box_form_info {
+  color: #00af00;
+  font-size: 11px;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+#box2_url, #box3_url, #box3_nice {
+  width: 250px;
+  height: 20px;
+  
+  margin: 0 0 20px 0;
+  padding: 2px 0 0 0;
+}
+
+#box2_new, #box3_new  {
+  width: 250px;
+  height: 16px;
+  
+  font-size: 14px;
+  background-color: #ecebeb;
+  border: 1px solid #a5acb2;
+  
+  padding: 2px 0;
+}
+
+#box3_nice {
+  margin: 0 0 20px 0;
+}
+
+#box2_submit, #box3_submit {
+  width: 170px;
+  height: 40px;
+  
+  color: #0aaaaa;
+  font-size: 0;
+  cursor: pointer;
+  
+  border: none;
+  background-color: transparent;
+  background-image: url("images/submit.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  margin: 0;
+  padding: 0;
+}
+
+#box2_submit:hover, #box3_submit:hover {
+  background-image: url("images/submit_hover.jpg");
+}
+
+#box2_submit:active, #box3_submit:active {
+  background-image: url("images/submit_active.jpg");
+}
+
+.box_content form {
+  margin: 0;
+  padding: 0;
+}
+
+.box_content input {
+  font-size: 16px;
+}
+
+/* foot */
+#foot {
+  width: 930px;
+  float: left;
+  
+  color: #f0f0f0;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  background-image: url("images/hr.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  
+  padding: 24px 10px 30px 10px;
+}
+
+span.hidden {
+  display: none;
+}
+
+#foot_left {
+  width: 465px;
+  float: left;
+}
+
+#foot_right {
+  width: 465px;
+  float: left;
+  
+  text-align: right;
+  word-spacing: 1px;
+}
+
+
+/* "With your feet on the air and your head on the ground,
+    Try this trick and spin it, yeah..." */
